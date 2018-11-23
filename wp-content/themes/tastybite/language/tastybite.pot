@@ -1,0 +1,490 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"tastybite\n"
+"POT-Creation-Date: "
+"2018-09-01 13:40+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"2.1.1\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: 404.php:26
+msgid "Ooopps"
+msgstr ""
+
+#: 404.php:28
+msgid "404"
+msgstr ""
+
+#: 404.php:30
+msgid ""
+"The Page you were "
+"looking for, could not "
+"be found"
+msgstr ""
+
+#: 404.php:32
+msgid "Back to Home"
+msgstr ""
+
+#: archive.php:56
+#: content-parts/content-single.php:75
+#: index.php:65
+#: search.php:73
+msgid "Prev"
+msgstr ""
+
+#: archive.php:57
+#: content-parts/content-single.php:80
+#: index.php:66
+#: search.php:74
+msgid "Next"
+msgstr ""
+
+#: class-wp-bootstrap-navwalker.php:368
+msgid "Add a menu"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+msgid ""
+"One thought on &ldquo;"
+"%s&rdquo;"
+msgstr ""
+
+#: comments.php:39
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment found"
+msgid_plural ""
+"%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:73
+msgid ""
+"Comments are closed."
+msgstr ""
+
+#: comments.php:86
+msgid ""
+"<div class=\"row\">\n"
+"                                <div "
+"class=\"col-xs-11 col-"
+"sm-6\"><h4 class=\"main-"
+"title text-left\">\n"
+"                                        <span>\n"
+"                                            Leave "
+"Comment\n"
+"                                        </"
+"span>\n"
+"                                    </"
+"h4> </div>\n"
+"                            </"
+"div>"
+msgstr ""
+
+#: content-parts/content-none.php:11
+msgid ""
+"Ready to publish your "
+"first post? Get started "
+"here."
+msgstr ""
+
+#: content-parts/content-none.php:15
+msgid ""
+"Sorry, but nothing "
+"matched your search "
+"terms. Please try again "
+"with some different "
+"keywords."
+msgstr ""
+
+#: content-parts/content-none.php:23
+msgid ""
+"It seems we can&rsquo;t "
+"find what you&rsquo;re "
+"looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-parts/content-search.php:28
+#: content-parts/content-single.php:33
+#: content-parts/content.php:31
+msgid "0 Comment"
+msgstr ""
+
+#: content-parts/content-search.php:28
+#: content-parts/content-single.php:33
+#: content-parts/content.php:31
+msgid "1 Comment"
+msgstr ""
+
+#: content-parts/content-search.php:28
+#: content-parts/content-single.php:33
+#: content-parts/content.php:31
+msgid "% Comments"
+msgstr ""
+
+#: content-parts/content-search.php:36
+#: content-parts/content.php:39
+#: section-parts/front-page-blogpost.php:66
+msgid "Read More"
+msgstr ""
+
+#: content-parts/content-single.php:51
+msgid "Tags"
+msgstr ""
+
+#: content-parts/content-single.php:62
+msgid " "
+msgstr ""
+
+#: footer.php:39
+#, php-format
+msgid ""
+" %1$sPowered by %2$s%3$s"
+msgstr ""
+
+#: footer.php:39
+msgid ""
+"https://wordpress.org/"
+msgstr ""
+
+#: footer.php:41
+#, php-format
+msgid ""
+" Theme: tastybite by: "
+"%1$sDesign By %2$s%3$s"
+msgstr ""
+
+#: footer.php:41
+msgid ""
+"http://CompanyName.com/"
+msgstr ""
+
+#: functions.php:73
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:171
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:173
+msgid ""
+"Sidebar on the blog "
+"layout."
+msgstr ""
+
+#: functions.php:184
+msgid ""
+"Footer Widget Area 1"
+msgstr ""
+
+#: functions.php:186
+msgid ""
+"The footer widget area 1"
+msgstr ""
+
+#: functions.php:195
+msgid ""
+"Footer Widget Area 2"
+msgstr ""
+
+#: functions.php:197
+msgid ""
+"The footer widget area 2"
+msgstr ""
+
+#: functions.php:205
+msgid ""
+"Footer Widget Area 3"
+msgstr ""
+
+#: functions.php:207
+msgid ""
+"The footer widget area 3"
+msgstr ""
+
+#: functions.php:224
+msgid ""
+"Your comment is awaiting "
+"moderation."
+msgstr ""
+
+#: functions.php:237
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: functions.php:237
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:240
+msgid "F jS, Y"
+msgstr ""
+
+#: header.php:18
+msgid "Tasty Bite"
+msgstr ""
+
+#: header.php:40
+msgid "Go to top"
+msgstr ""
+
+#: include/customizer.php:23
+msgid "Show"
+msgstr ""
+
+#: include/customizer.php:24
+msgid "Hide"
+msgstr ""
+
+#: include/customizer.php:35
+msgid "2 Column Layout"
+msgstr ""
+
+#: include/customizer.php:36
+msgid "3 Column Layout"
+msgstr ""
+
+#: include/customizer.php:37
+msgid "4 Column Layout"
+msgstr ""
+
+#: include/customizer.php:109
+msgid "tastybite Options"
+msgstr ""
+
+#: include/customizer.php:121
+msgid "Home Intro Section"
+msgstr ""
+
+#: include/customizer.php:142
+msgid "Intro Option"
+msgstr ""
+
+#: include/customizer.php:143
+msgid ""
+"Show/hide option for "
+"Intro Section."
+msgstr ""
+
+#: include/customizer.php:159
+msgid "Intro Page "
+msgstr ""
+
+#: include/customizer.php:175
+#: include/customizer.php:599
+msgid "Button Text"
+msgstr ""
+
+#: include/customizer.php:191
+#: include/customizer.php:581
+msgid "Button URL"
+msgstr ""
+
+#: include/customizer.php:208
+msgid "Restaurant Hours"
+msgstr ""
+
+#: include/customizer.php:230
+msgid "Food Icon "
+msgstr ""
+
+#: include/customizer.php:231
+#: include/customizer.php:441
+msgid ""
+"Select a icon in this "
+"list <a target=\"_blank"
+"\" href=\"https://"
+"fontawesome.com/v4.7.0/"
+"icons/\">Font Awesome "
+"icons</a> and enter the "
+"class name"
+msgstr ""
+
+#: include/customizer.php:248
+msgid "Food Title"
+msgstr ""
+
+#: include/customizer.php:264
+msgid "Timing"
+msgstr ""
+
+#: include/customizer.php:278
+msgid "About Us Section"
+msgstr ""
+
+#: include/customizer.php:297
+msgid "About Us Option"
+msgstr ""
+
+#: include/customizer.php:298
+#: include/customizer.php:374
+msgid ""
+"Show/hide option Section."
+msgstr ""
+
+#: include/customizer.php:318
+msgid "About Us Title"
+msgstr ""
+
+#: include/customizer.php:338
+msgid "About Us Page "
+msgstr ""
+
+#: include/customizer.php:353
+msgid ""
+"Home Service Section"
+msgstr ""
+
+#: include/customizer.php:373
+msgid "Services Option"
+msgstr ""
+
+#: include/customizer.php:394
+msgid "service Title"
+msgstr ""
+
+#: include/customizer.php:414
+msgid ""
+"Column Layout option "
+msgstr ""
+
+#: include/customizer.php:440
+msgid "Service Icon "
+msgstr ""
+
+#: include/customizer.php:457
+msgid "Service Page "
+msgstr ""
+
+#: include/customizer.php:471
+msgid "Home Blog Section"
+msgstr ""
+
+#: include/customizer.php:490
+msgid "Blog Option"
+msgstr ""
+
+#: include/customizer.php:491
+msgid ""
+"Show/hide option for "
+"Blog Section."
+msgstr ""
+
+#: include/customizer.php:508
+msgid "Blog Title"
+msgstr ""
+
+#: include/customizer.php:523
+msgid "Callout Section"
+msgstr ""
+
+#: include/customizer.php:543
+msgid "Footer Callout"
+msgstr ""
+
+#: include/customizer.php:544
+msgid ""
+"Show/hide option for "
+"Footer Callout Section."
+msgstr ""
+
+#: include/customizer.php:563
+msgid "Callout Text"
+msgstr ""
+
+#: include/customizer.php:611
+msgid "Footer Section"
+msgstr ""
+
+#: include/customizer.php:630
+msgid "Footer Option"
+msgstr ""
+
+#: include/customizer.php:631
+msgid ""
+"Show/hide option for "
+"Footer Section."
+msgstr ""
+
+#: include/customizer.php:650
+msgid "Copyright"
+msgstr ""
+
+#: include/extras.php:16
+msgctxt "placeholder"
+msgid "Search"
+msgstr ""
+
+#: include/extras.php:16
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: search.php:27
+#, php-format
+msgid ""
+"Search Results for : %s"
+msgstr ""
+
+#: search.php:32
+#, php-format
+msgid ""
+"Nothing Found for: %s"
+msgstr ""
+
+#: section-parts/front-page-blogpost.php:53
+msgid "0"
+msgstr ""
+
+#: section-parts/front-page-blogpost.php:53
+msgid "1"
+msgstr ""
+
+#: section-parts/front-page-blogpost.php:53
+msgid "%"
+msgstr ""

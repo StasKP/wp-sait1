@@ -1,0 +1,31 @@
+#customize-controls .control-section-vw-painter .accordion-section-title:hover,
+#customize-controls .control-section-vw-painter .accordion-section-title:focus {
+	background-color: #fff;
+}
+.control-section-vw-painter .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+.rtl .control-section-vw-painter .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+/* ---------Customizer--------- */
+.control-section-vw-painter h3.accordion-section-title {
+	background-image: linear-gradient(to right, #00d2a0, #7ab901, #efc62a, #e89314 ) !important;
+	color: #fff !important;
+}
+a.button.button-secondary.alignright {
+    color: #1e1d24;
+    box-shadow: none;
+    border: solid 2px #1e1d24;
+    font-weight: bold;
+    padding: 0 10px;
+    background: transparent;
+    height: 31px;
+}
+a.button.button-secondary.alignright:hover {
+	background: #1e1d24;
+	color: #fff;
+}

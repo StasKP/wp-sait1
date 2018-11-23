@@ -1,8 +1,3 @@
-<!--<script type="text/javascript">
-	$(document).ready(function func() {    
-    	alert("Hello World!");
-	})
-</script>!-->
 <?php
 /**
 * @package forma
@@ -56,4 +51,3 @@ function vform (){
 }
 add_shortcode('vform', 'vform' );
 ?>
-

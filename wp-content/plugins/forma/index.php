@@ -28,26 +28,22 @@ Version: 1.1
 */
 
 function vform (){
-	echo "<form>";
+	echo "<form action='../wp-content/plugins/forma/func.php' method='post'>";
 	echo "Имя";
-	echo "<input type='text' style='border-radius: 50px;' id='namee'>";
-	echo "Фамилия";
-	echo "<input type='text' style='border-radius: 50px;'>";
+	echo "<input type='text' style='border-radius: 50px;' name='username'>";
 	echo "Мобилный телефон";
-	echo "<input type='number' style='border-radius: 50px;'>";
+	echo "<input type='number' style='border-radius: 50px;' name='mobphone'>";
 	echo "Домашний телефон";
-	echo "<input type='number' style='border-radius: 50px;'>";
+	echo "<input type='number' style='border-radius: 50px;' name='domphone'>";
 	echo "Email:";
-	echo "<input type='email' style='border-radius: 50px;'>";
+	echo "<input type='email' style='border-radius: 50px;' name='eemail'>";
 	echo "Сообщение";
-	echo "<input type='text' style='border-radius: 50px;'>";
+	echo "<input type='text' style='border-radius: 50px;' name='message'>";
 	echo "<br />";
-	echo "<center><input id='butt' type='button' value='Отправить' style='border-radius: 50px;'></center";
-	echo "</form>";
-	/*$usernamee = $_POST['namee'];
-	if (empty($usernamee)) {
-		echo "Введите имя";
-	}*/
+	echo "<center><input name='butt' type='submit' value='Отправить' style='border-radius: 50px;'></center";
+	echo "</form>";	
 }
+
+
 add_shortcode('vform', 'vform' );
 ?>

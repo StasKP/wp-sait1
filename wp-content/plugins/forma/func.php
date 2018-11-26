@@ -1,5 +1,4 @@
 <?php
-	echo "Текст";
 	$username = $_REQUEST['username'];
 	$mobphone = $_REQUEST['mobphone'];
 	$domphone = $_REQUEST['domphone'];

@@ -292,7 +292,20 @@ addLoadEvent(function(){ var p=new Array(15,30,15,0,-15,-30,-15,0);p=p.concat(p.
 </script>
 <?php
 }
+function my_admin_logo() { 
+echo '<style type="text/css">#header-logo { background:url('.get_bloginfo('template_directory').'/images/favicon.ico) no-repeat 0 0 !important; }</style>'; 
+} 
+add_action('admin_head', 'my_admin_logo'); 
+/* Меняем картинку логотипа WP на странице входа */ 
+function my_login_logo(){ 
+echo '<style type="text/css";>#login h1 a { background: url(wp-admin/images/logo1.png) no-repeat 0 0 !important; width: 300px; height:150px; }</style>'; 
 
+} 
+add_action('login_head', 'my_login_logo'); 
+/* Ставим ссыллку с логотипа на сайт, а не на wordpress.org */ 
+add_filter( 'login_headerurl', create_function('', 'return get_home_url();') ); 
+/* убираем title в логотипе "сайт работает на wordpress" */ 
+add_filter( 'login_headertitle', create_function('', 'return false;') );
 /**
  * @since 3.7.0
  */

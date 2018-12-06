@@ -43,15 +43,19 @@ function vform (){
 	echo "<input type='email' style='border-radius: 50px;' name='eemail'>";
 	echo "Сообщение";
 	echo "<input type='text' style='border-radius: 50px;' name='message'>";
+	echo "<center>Способ получения сообщения";
 	echo "<br />";
-	echo "<center><input name='butt' id='btn' type='submit' value='Отправить' style='border-radius: 50px;'></center";
+	echo "<select name='sposob'style='border-radius: 50px;'><option>--Не выбрано--</option><option>Почта</option><option>SMS</option><option>WhatsApp</option></select>";
+	echo "<br />";
+	echo "<br />";
+	echo "<input name='butt' id='btn' type='submit' value='Отправить' style='border-radius: 50px;'></center";
 	echo "</form>";
 	echo "<div id='result_form'></div>";	
 }
 
 
 add_action('admin_menu', function(){
-	add_menu_page( 'Дополнительные настройки сайта', 'Не пульт', 'manage_options', 'site-options', 'add_my_setting', '', 4 ); 
+	add_menu_page( 'Дополнительные настройки сайта', 'Обратная форма', 'manage_options', 'site-options', 'add_my_setting', '', 4 ); 
 } );
 
 function add_my_setting(){

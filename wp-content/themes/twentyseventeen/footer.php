@@ -17,6 +17,8 @@
 		</div><!-- #content -->
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
+			<div style="margin-left:500px;">ООО «СтройКомфорт» © Copyright, 2018</div>
+			<a style="margin-left:500px;" href="http://wordpress/условия-использования-интернет-мага/">Условия использования интернет-магазина</a>
 			<div class="wrap">
 				<?php
 				get_template_part( 'template-parts/footer/footer', 'widgets' );

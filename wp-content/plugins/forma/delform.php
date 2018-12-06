@@ -6,6 +6,8 @@
  $result = $handle->query($query);
  if ($result) echo "Данные удалены";
  if (!$result) echo "Ошибка удаления данных";
- //header("Location: http://wordpress/wp-admin/admin.php?page=site-options");
- exit("<meta http-equiv='refresh' content='0; url= $_SERVER[PHP_SELF]'>");
+
  ?>
+ <form action="http://wordpress/wp-admin/">
+ 	<input type="submit" name="kzapis" value="Назад">
+ </form>
